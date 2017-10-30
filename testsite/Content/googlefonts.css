@@ -1,0 +1,2770 @@
+/* This file is auto-generated from a `scss` file with the same name */
+
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Abril Fatface"), local("AbrilFatface-Regular"), url(X1g_KwGeBV3ajZIXQ9VnDibsRidxnYrfzLNRqJkHfFo.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Alef Regular"), local("Alef-Regular"), url(gzq6OSepdeZ1VdycsVw6Vg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Alef Bold"), local("Alef-Bold"), url(X0iSt6XzCfNbPTjLwRkb_Q.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Alike';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Alike"), local("Alike-Regular"), url(9YPgiMNwlj6YrTzCeqLufQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Allura"), local("Allura-Regular"), url(vepcd74zyZuQXtgnV3VOrg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Amaranth"), url(imfGW7soN-ntDfo1a_OKNPesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Amaranth Bold"), local("Amaranth-Bold"), url(hh4Od9pccylRpuf5LUPgEp0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Amaranth';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Amaranth Italic"), local("Amaranth-Italic"), url(J0IatWFySU8P-ir89pUoJC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Amaranth';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Amaranth Bold Italic"), local("Amaranth-BoldItalic"), url(BHyuYFj9nqLFNvOvGh0xT_Er6Hm6RMS0v1dtXsGir4g.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Amatic SC Regular"), local("AmaticSC-Regular"), url(DPPfSFKxRTXvae2bKDzp5KCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Amatic SC Bold"), local("AmaticSC-Bold"), url(IDnkRTPGcrSVo50UyYNK74nF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Arvo"), url(MViwy4K6e56oHcyeMzjbCQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Arvo Bold"), local("Arvo-Bold"), url(F-uvpIj1hF17IDyvQvI50Q.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Arvo Italic"), local("Arvo-Italic"), url(vQXokwpmxuSASZo9hjfj5g.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Arvo Bold Italic"), local("Arvo-BoldItalic"), url(Vj6JEk1YZr8j8R8H2j0b-qCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bad Script Regular"), local("BadScript-Regular"), url(rL_b2ND61EQmMOJ8CRr1fi3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Belgrano';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Belgrano"), local("Belgrano-Regular"), url(t4vQ3pjZPqeEBIlcI552R_esZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bree Serif"), local("BreeSerif-Regular"), url(LQ7WLTaITDg4OSRuOZCpsy3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Butcherman';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Butcherman"), local("Butcherman-Regular"), url(8FC9zd4HohxQSKgha-Uqji3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin Regular"), local("Cabin-Regular"), url(K6ngFdK5haaaRGBV8waDwA.ttf) format("truetype"), url(kJXt72Gt1LyFMZcEKAAvlKCWcynf_cDxXwCLxiixG1c.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Cabin Medium"), local("Cabin-Medium"), url(187TYb8ysVvxar86IcDsZ_esZW2xOQ-xsNqO47m55DA.ttf) format("truetype"), url(km2iCywk7CnC11BE8pBNVHYhjbSpvc47ee6xR_80Hnw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Cabin SemiBold"), local("Cabin-SemiBold"), url(TNtGAwzXtCEY_5hzRlIJNPesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"), url(bSicyj3YibVhVPhGZyWVI3YhjbSpvc47ee6xR_80Hnw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cabin Bold"), local("Cabin-Bold"), url(nHiQo1BypvYzt95zlPq1TvesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"), url(haOjnueK8Or1ztuuRtr8dnYhjbSpvc47ee6xR_80Hnw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Cabin Italic"), local("Cabin-Italic"), url(Et-v_QIck3adV65yIaqlhg.ttf) format("truetype"), url(SYYqINfDCIH45kObNrBWvgLUuEpTyoUstqEm5AMlJo4.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Cabin Medium Italic"), local("Cabin-MediumItalic"), url(l3VlC5SZU-ZceiU15Vs2gC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"), url(l3VlC5SZU-ZceiU15Vs2gL3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Cabin SemiBold Italic"), local("Cabin-SemiBoldItalic"), url(Sn-0zpaF2c3wYt9xdgoYFS3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"), url(Sn-0zpaF2c3wYt9xdgoYFb3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Cabin Bold Italic"), local("Cabin-BoldItalic"), url(Ww23LQNlhn4dAm9uegPaXy3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"), url(Ww23LQNlhn4dAm9uegPaX73hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cardo"), local("Cardo-Regular"), url(vjI-nu0OQ4awNWMtISxB9w.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cardo Bold"), local("Cardo-Bold"), url(V5fEf2Hmfq3L3OwPiowl-vesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Cardo Italic"), local("Cardo-Italic"), url(GRTkKQvSwrQKMUJtWZsm7w.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cookie-Regular"), url(pKcurCxn_Ato3MXK6jF2CA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Creepster';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Creepster"), local("Creepster-Regular"), url(un014as1qOcrVg1hrkn_UaCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Crete Round"), local("CreteRound-Regular"), url(ZCcPJiCGOzh84o2siPk48Z0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Crete Round Italic"), local("CreteRound-Italic"), url(5xAt7XK2vkUdjhGtt98uneLrC4Du4e_yfTJ8Ol60xk0.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Duru Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Duru Sans"), local("DuruSans-Regular"), url(0rnIdjSQWlqFS5KpKzVfzqCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Eater';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Eater"), local("Eater-Regular"), url(Sl9zTjyRG7qTs9YeDvrwkg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Exo Thin"), local("Exo-Thin"), url(Zr0MbJYTAN-HcZ_bTgvIlw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Exo ExtraLight"), local("Exo-ExtraLight"), url(CMKhhPu7qcBoVeO_FVLYTg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Exo Light"), local("Exo-Light"), url(dmD6gKcs59jrq1uKvTTMxQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo Regular"), local("Exo-Regular"), url(m5W5Curk5POZ4iQOoRn-Ug.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Exo Medium"), local("Exo-Medium"), url(9GQrDsQoLNPSbu4a8XkaZw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Exo DemiBold"), local("Exo-DemiBold"), url(BfPy-oLZyJitfovLhnoy1A.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Exo Bold"), local("Exo-Bold"), url(Pb-Tqi3xXEdTJ3ZTpmCsBw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Exo ExtraBold"), local("Exo-ExtraBold"), url(q6KmdSsfN6LEK-raIRJ77Q.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Exo Black"), local("Exo-Black"), url(1eQ4lxSu6Wlzo5DJtsj51w.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Exo Thin Italic"), local("Exo-ThinItalic"), url(4_gM-2xprP9aijXPNKBsdw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 200;
+  src: local("Exo ExtraLight Italic"), local("Exo-ExtraLightItalic"), url(KZkPTFM02P3uTVfiDk6i2_esZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Exo Light Italic"), local("Exo-LightItalic"), url(FO--mEKyXT4ugIkHKUxgOvesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Exo Italic"), local("Exo-Italic"), url(ouqjB58-qIbIc6tNtOafrA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Exo Medium Italic"), local("Exo-MediumItalic"), url(EirSuhHc5LPsqOkwuKdd8PesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Exo DemiBold Italic"), local("Exo-DemiBoldItalic"), url(Ek_R6ngmT59El5kpkoxOePesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Exo Bold Italic"), local("Exo-BoldItalic"), url(SCJ8lcLktXFnX90KWp_oHPesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Exo ExtraBold Italic"), local("Exo-ExtraBoldItalic"), url(mdnzu29W-cFZeYROHmmUVfesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Exo Black Italic"), local("Exo-BlackItalic"), url(i-d6hMaRtGJeX1Ae4vloR_esZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Flamenco';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Flamenco"), local("Flamenco-Regular"), url(eFddhPhjkE2ivntTZU35C_esZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Glegoo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Glegoo"), local("Glegoo-Regular"), url(rRnY1PEvm8fHngJkZm5BIA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gloria Hallelujah"), local("GloriaHallelujah"), url(CA1k7SlXcY5kvI81M_R28Y7PgI6IeGWgqdOlp0TQlJM.ttf) format("truetype"), url("CA1k7SlXcY5kvI81M_R28bhi4u8Y7RaAY_ljmVkqsb8.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Great Vibes"), local("GreatVibes-Regular"), url(6q1c0ofG6NKsEhAc2eh-3Z0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gudea"), url(TJBgbd7QSbnZkQrnM77kmw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gudea Bold"), local("Gudea-Bold"), url(5_80veqYtMg_mX_C_gEF_PesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Gudea';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Gudea Italic"), local("Gudea-Italic"), url(YETrVqJHJHw2eRWYIh0BAg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inconsolata"), url(BjAYBlHtW3CJxDcjzrnZCJ0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Inconsolata Bold"), local("Inconsolata-Bold"), url(AIed271kqQlcIRSOnQH0yZ_TkvowlIOtbR7ePgFOpF4.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Josefin Sans Thin"), local("JosefinSans-Thin"), url(q9w3H4aeBxj0hZ8Osfi3d2-gXUWvikdRm39El-Kldqo.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Josefin Sans Light"), local("JosefinSans-Light"), url(C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Josefin Sans"), local("JosefinSans"), url(xgzbb53t8j-Mo-vYa23n5onF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Josefin Sans SemiBold"), local("JosefinSans-SemiBold"), url(C6HYlRF50SGJq1XyXj04z1FZMcfX2SbzQ69I7OWmkGo.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Josefin Sans Bold"), local("JosefinSans-Bold"), url(C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Josefin Sans Thin Italic"), local("JosefinSans-ThinItalic"), url(s7-P1gqRNRNn-YWdOYnAORNDIA8twkEsorcr_fdT1vI.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Josefin Sans Light Italic"), local("JosefinSans-LightItalic"), url(ppse0J9fKSaoxCIIJb33G33uxQAI1Bvm-GxtFNy4yl0.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Josefin Sans Italic"), local("JosefinSans-Italic"), url(q9w3H4aeBxj0hZ8Osfi3dytfYakCkPqOMDce0h_3gD8.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Josefin Sans SemiBold Italic"), local("JosefinSans-SemiBoldItalic"), url(ppse0J9fKSaoxCIIJb33GzolfeppZzFSKvLyJNPKLMk.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Josefin Sans Bold Italic"), local("JosefinSans-BoldItalic"), url(ppse0J9fKSaoxCIIJb33GyxQL91WRy8t8mPvAX_dIgA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Josefin Slab Thin"), local("JosefinSlab-Thin"), url(etsUjZYO8lTLU85lDhZwUm-gXUWvikdRm39El-Kldqo.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Josefin Slab Light"), local("JosefinSlab-Light"), url(NbE6ykYuM2IyEwxQxOIi2AV_pQ1T3xN3K1c3sB361us.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Josefin Slab"), local("JosefinSlab"), url(46aYWdgz-1oFX11flmyEfYnF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Josefin Slab SemiBold"), local("JosefinSlab-SemiBold"), url(NbE6ykYuM2IyEwxQxOIi2FFZMcfX2SbzQ69I7OWmkGo.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Josefin Slab Bold"), local("JosefinSlab-Bold"), url(NbE6ykYuM2IyEwxQxOIi2H06qf9KHRHwsVx7iw5MXmY.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Josefin Slab Thin Italic"), local("JosefinSlab-ThinItalic"), url(8BjDChqLgBF3RJKfwHIYhxNDIA8twkEsorcr_fdT1vI.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Josefin Slab Light Italic"), local("JosefinSlab-LightItalic"), url(af9sBoKGPbGO0r21xJuly33uxQAI1Bvm-GxtFNy4yl0.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Josefin Slab Italic"), local("JosefinSlab-Italic"), url(etsUjZYO8lTLU85lDhZwUitfYakCkPqOMDce0h_3gD8.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Josefin Slab SemiBold Italic"), local("JosefinSlab-SemiBoldItalic"), url(af9sBoKGPbGO0r21xJulyzolfeppZzFSKvLyJNPKLMk.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Josefin Slab Bold Italic"), local("JosefinSlab-BoldItalic"), url(af9sBoKGPbGO0r21xJulyyxQL91WRy8t8mPvAX_dIgA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Jura Light"), local("Jura-Light"), url(oL0FwdEAnOsXjuRkZKgehQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Jura Regular"), local("Jura-Regular"), url(BaRU3GSISDJW2nIqbysbmg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Jura Medium"), local("Jura-Medium"), url(VOlGr-7vzd-sWMFFGDufuw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Jura DemiBold"), local("Jura-DemiBold"), url(-RHotMovjaVpxVlqUkBy4w.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(zJY4gsxBiSo5L7tNutxFNg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(nj47mAZe0mYUIySgfn0wpQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(v0SdcGFAl2aezM9Vq_aFTQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(DvlFBScY1r-FMtZSYIYoYw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url(4cKlrioa77J2iqTqBgkRWg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Lato Hairline Italic"), local("Lato-HairlineItalic"), url(gc5ZVKiLNkRdGlU3GaSVBfesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Lato Light Italic"), local("Lato-LightItalic"), url(2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(LqowQDslGv4DmUBAfWa2Vw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Lato Black Italic"), local("Lato-BlackItalic"), url(VNUH7ZAcagYBWsAiBBCEY6CWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Libre Baskerville"), local("LibreBaskerville-Regular"), url(pR0sBQVcY0JZc_ciXjFsKwAUTJOA6-irsSazDq377BE.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Libre Baskerville Bold"), local("LibreBaskerville-Bold"), url(kH7K4InNTm7mmOXXjrA5v_gg4qM5Rpmu0ASAribBgqE.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Libre Baskerville Italic"), local("LibreBaskerville-Italic"), url(QHIOz1iKF3bIEzRdDFaf5ZEdosCNS0EvOwDBzJZsz8o.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lobster"), local("Lobster-Regular"), url(w5HPj52zZZcV_MSSXRma.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lobster Two"), local("LobsterTwo"), url(Law3VVulBOoxyKPkrNsAaJ0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lobster Two Bold"), local("LobsterTwo-Bold"), url(bmdxOflBqMqjEC0-kGsIiJ_TkvowlIOtbR7ePgFOpF4.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lobster Two Italic"), local("LobsterTwo-Italic"), url(Ul_16MSbfayQv1I4QhLEoOLrC4Du4e_yfTJ8Ol60xk0.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lobster Two Bold Italic"), local("LobsterTwo-BoldItalic"), url(LEkN2_no_6kFvRfiBZ8xpGsGzsqhEorxQDpu60nfWEc.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lora"), local("Lora-Regular"), url(4A-myfZX6oDr9CtSTkTGig.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lora Bold"), local("Lora-Bold"), url(rapsGf8n-DpRu9kcmAAciA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lora Italic"), local("Lora-Italic"), url(DeoOq1kX9ExfArSHppos_g.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lora Bold Italic"), local("Lora-BoldItalic"), url(_IxjUs2lbQSu0MyFEAfa7aCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lusitana"), url(Q7EtAWlDLyjrIIFdmxKqN_esZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lusitana Bold"), local("Lusitana-Bold"), url(oCjlVB3OWc0D00Ervq8JG50EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Mate SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Mate SC Regular"), local("MateSC-Regular"), url(I5XqnZRc6OFZZn87UIu4Rg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Maven Pro Regular"), local("MavenProRegular"), url(MG9KbUZFchDs94Tbv9U-paCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Maven Pro Medium"), local("MavenProMedium"), url(SQVfzoJBbj9t3aVcmbspRonF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Maven Pro Bold"), local("MavenProBold"), url(uDssvmXgp7Nj3i336k_dSonF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Maven Pro Black"), local("MavenProBlack"), url(-91TwiFzqeL1F7Kh91APwYnF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"), url(zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat-Bold"), url(IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Nosifer';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nosifer"), local("Nosifer-Regular"), url(9e38a9mB2Vvr5Yetzutb1Q.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Old Standard TT Regular"), local("OldStandardTT-Regular"), url(n6RTCDcIPWSE8UNBa4k-DLGMqOskSJahibCG-vhG9Ug.ttf) format("truetype"); }
+
+/* @font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSonF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans Extrabold'),local('OpenSans-Extrabold'),url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-honF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local('Open Sans Light Italic'),local('OpenSansLight-Italic'),url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxrfB31yxOzP-czbf6AAKCVo.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'),local('OpenSans-Italic'),url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBp0EAVxt0G0biEntp43Qt6E.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local('Open Sans Semibold Italic'),local('OpenSans-SemiboldItalic'),url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxi8cqLH4MEiSE0ROcU-qHOA.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'),local('OpenSans-BoldItalic'),url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxp_TkvowlIOtbR7ePgFOpF4.ttf) format('truetype')}
+ */
+/* @font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local('Open Sans Extrabold Italic'),local('OpenSans-ExtraboldItalic'),url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxlDMrAYtoOisqqMDW9M_Mqc.ttf) format('truetype')}
+ */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format("woff"), url(DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"), url(cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format("woff"), url(MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff"), url(k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url(EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff) format("woff"), url(EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"), url(PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff) format("woff"), url(PRmiXeptR36kaC0GEAetxko2lTMeWA_kmIyWrkNCwPc.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format("woff"), url(xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"), url(PRmiXeptR36kaC0GEAetxn5HxGBcBvicCpTp6spHfNo.woff) format("woff"), url(PRmiXeptR36kaC0GEAetxl2umOyRU7PgRiv8DXcgJjk.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format("woff"), url(PRmiXeptR36kaC0GEAetxolIZu-HDpmDIZMigmsroc4.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans Extrabold Italic"), local("OpenSans-ExtraboldItalic"), url(PRmiXeptR36kaC0GEAetxkCDe67GEgBv_HnyvHTfdew.woff) format("woff"), url(PRmiXeptR36kaC0GEAetxnibbpXgLHK_uTT48UMyjSM.woff2) format("woff2"); }
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url(Y_TKV6o8WovbUd3m_X9aAA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Oswald Light"), local("Oswald-Light"), url(HqHm7BVC_nzzTui2lzQTDbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oswald Bold"), local("Oswald-Bold"), url(bH7276GfdCjMjApa_dkG6bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Oxygen Light"), local("Oxygen-Light"), url(AwBqWF2kjhlybWamaKMPcaCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oxygen"), local("Oxygen-Regular"), url(f8OBjBbevvywgbyJOxlO7Q.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Oxygen Bold"), local("Oxygen-Bold"), url(yVHpdQrmTj9Kax1tmFSx2qCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url(FUDHvzEKSJww3kCxuiAo2A.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url(0XxGQsSc1g4rdRdjJKZrNC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("PT Sans Italic"), local("PTSans-Italic"), url(PIPMHY90P7jtyjpXuZ2cLKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"), url(lILlYDvubYemzYzN7GbLkInF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Serif"), local("PTSerif-Regular"), url(EgBlzoNBIHxNPCMwXaAhYPesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Serif Bold"), local("PTSerif-Bold"), url(QABk9IxT-LFTJ_dQzv7xpJ0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local("PT Serif Italic"), local("PTSerif-Italic"), url(03aPdn7fFF3H6ngCgAlQzC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local("PT Serif Bold Italic"), local("PTSerif-BoldItalic"), url(Foydq9xJp--nfYIx2TBz9fEr6Hm6RMS0v1dtXsGir4g.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url(fKnfV28XkldRW297cFLeqfesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Patua One"), local("PatuaOne-Regular"), url(yAXhog6uK3bd3OwBILv_SKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Playball"), local("Playball-Regular"), url(bTcyeVjOJ0HzO36ebPilS_esZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Playfair Display"), local("PlayfairDisplay-Regular"), url(2NBgzUtEeyB-Xtpr9bm1Cczai8e7xzqnKiVb1EwOy0E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url(HrI4ZJpJ3Fh0wa5ofYMK8S3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Quattrocento"), url(WZDISdyil4HsmirlOdBRFInF5uFdDttMLvmWuJdhhgs.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Quattrocento Bold"), local("Quattrocento-Bold"), url(Uvi-cRwyvqFpl9j3oT2mqn06qf9KHRHwsVx7iw5MXmY.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Raleway Thin"), local("Raleway-Thin"), url(RJMlAoFXXQEzZoMSUteGWKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"), url(8KhZd3VQBtXTAznvKjw-ky3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url(-_Ctzj9b56b8RgXW8FAriS3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), url(bIcY3_3JNqUVRAQQRNVteQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Raleway Medium"), local("Raleway-Medium"), url(CcKI4k9un7TZVWzRVT-T8y3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url(xkvoNo9fC8O2RDydKj12by3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Raleway Bold"), local("Raleway-Bold"), url(JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"), url(1ImRNPx4870-D9a1EBUdPC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Raleway Heavy"), local("Raleway-Heavy"), url(PKCRbVvRfd5n7BTjtGiFZC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Thin"), local("Roboto-Thin"), url(Jzo62I39jc0gQRrbndN6nfesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url(zN7GBFwfMP4uA6AR0HCoLQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Roboto Black"), local("Roboto-Black"), url(mnpfi9pxYH-Go5UiibESIqCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url(12mE4jfMSBTmg-81EiS-YS3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(7m8l7TlFO-S3VkhHuR0at50EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), url(W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(OLffGBTaF0XFOW1gnuHF0Z0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(t6Nd4cfPRhZP44Q5QAjcC50EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url(bmC0pGMXrhphrZJmniIZpZ0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(MEz38VLIFL-t46JUtkIEgH4UHu-c0cTZKOwO_f6u1Os.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(dazS1PrQQuCxC3iOAJFEJbfB31yxOzP-czbf6AAKCVo.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(y7lebkjgREBJK96VQi37Zp0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(dazS1PrQQuCxC3iOAJFEJZ_TkvowlIOtbR7ePgFOpF4.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Rokkitt';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Rokkitt"), url(sr63xTucDSbOV6kDLSAZiA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Rokkitt';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Rokkitt Bold"), local("Rokkitt-Bold"), url(Mef17w3J4CtS0lw4Wa_8ry3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Sanchez';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sanchez"), local("Sanchez-Regular"), url(Eh9ZVPLDFF2xhCIl_We4NA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Sansita One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sansita One"), local("SansitaOne"), url(r0cFg_5MCCA0Wi4i7AgXWJ0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Signika-Light"), url(koFYE26bhT88HgRA8f4vbS3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Signika"), local("Signika-Regular"), url(ejLRhBEorqjLDaF8s-xuTQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Signika-Semibold"), url(FZa_MODmDkR9DTu5jHSnSS3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Signika-Bold"), url(7M5kxD4eGxuhgFaIk95pBS3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Source Sans Pro ExtraLight"), local("SourceSansPro-ExtraLight"), url(toadOcfmlt9b38dHJxOBGEMbjGELOEJD5J8DUmxkO-A.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(toadOcfmlt9b38dHJxOBGMw1o1eFRj7wYC6JbISqOjY.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(ODelI1aHBYDBqgeIAH2zlNzbP97U9sKh0jjxbPbfOKg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url(toadOcfmlt9b38dHJxOBGNNE-IuDiR70wI4zXaKqWCM.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(toadOcfmlt9b38dHJxOBGLsbIrGiHa6JIepkyt5c0A0.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Source Sans Pro Black"), local("SourceSansPro-Black"), url(toadOcfmlt9b38dHJxOBGBPPOa1q11iOmmM9mDHHHX4.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 200;
+  src: local("Source Sans Pro ExtraLight Italic"), local("SourceSansPro-ExtraLightIt"), url(fpTVHK8qsXbIeTHTrnQH6BzYcsdbdSWRnnT3pSZS3xU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightIt"), url(fpTVHK8qsXbIeTHTrnQH6Iue0YgdIF4L_q7PS4yTQOQ.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Source Sans Pro Italic"), local("SourceSansPro-It"), url(M2Jd71oPJhLKp0zdtTvoM0DauxaEVho0aInXGvhmB4k.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold Italic"), local("SourceSansPro-SemiboldIt"), url(fpTVHK8qsXbIeTHTrnQH6EfrksRSinjQUrHtm_nW72g.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldIt"), url(fpTVHK8qsXbIeTHTrnQH6Edtd7Dq2ZflsctMEexj2lw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Source Sans Pro Black Italic"), local("SourceSansPro-BlackIt"), url(fpTVHK8qsXbIeTHTrnQH6DiS5Fc5Bg1xsygf01vWWOU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Spinnaker';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Spinnaker"), local("Spinnaker-Regular"), url(WxzDAY6mC9v3znSJEtCoW6CWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Stalemate';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Stalemate"), local("Stalemate-Regular"), url(ILXfSNYxooD2TPt48NlaP6CWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Titillium WebThin"), local("TitilliumWeb-Thin"), url(anMUvcNT0H1YN4FII8wpr3X8wLqJehFHYvczAG3afGw.ttf) format("truetype"), url(anMUvcNT0H1YN4FII8wpr-K9kSItTeDn2USN0q77Oh4.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Titillium WebLight"), local("TitilliumWeb-Light"), url(anMUvcNT0H1YN4FII8wpr93Z6MveExszb-iKWJY7ddA.ttf) format("truetype"), url(anMUvcNT0H1YN4FII8wpr1uKlGE8-OjkUKWan_M3D6s.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Titillium Web"), local("TitilliumWeb-Regular"), url(7XUFZ5tgS-tD6QamInJTcU3KvHLhcNjEHFQzwNtdMQY.ttf) format("truetype"), url(7XUFZ5tgS-tD6QamInJTcZ_o9VAbKgK36i-4snuAuCM.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Titillium WebSemiBold"), local("TitilliumWeb-SemiBold"), url(anMUvcNT0H1YN4FII8wpr4e2tK5W43RXgBRKkM4A5Qg.ttf) format("truetype"), url(anMUvcNT0H1YN4FII8wprx3QmhlKDgQgT1VN2Ed1WFo.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Titillium WebBold"), local("TitilliumWeb-Bold"), url(anMUvcNT0H1YN4FII8wprzsSLeNQG2cy_mKit6iEdYs.ttf) format("truetype"), url(anMUvcNT0H1YN4FII8wpr_5rZpfU3XI-FvUPGDRT0xY.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Titillium WebBlack"), local("TitilliumWeb-Black"), url(anMUvcNT0H1YN4FII8wpr7TM2ub1b0-XAnaFPbg2y34.ttf) format("truetype"), url(anMUvcNT0H1YN4FII8wpr-LKzNf-KVGBce62FCkcLKE.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 200;
+  src: local("Titillium WebThin Italic"), local("TitilliumWeb-ThinItalic"), url(RZunN20OBmkvrU7sA4GPPjbN8npVg18l9kOXuMWNZJM.ttf) format("truetype"), url(RZunN20OBmkvrU7sA4GPPvTdIrrWFKtkerHRAIjOAnE.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Titillium WebLight Italic"), local("TitilliumWeb-LightItalic"), url(RZunN20OBmkvrU7sA4GPPhPpE1UvVmSV1Lr9FL5pkyg.ttf) format("truetype"), url(RZunN20OBmkvrU7sA4GPPiKuKXcI2mpaPB3p6hsA39k.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Titillium WebItalic"), local("TitilliumWeb-Italic"), url(r9OmwyQxrgzUAhaLET_KO33biFuL3q2SDfti1FP8KHU.ttf) format("truetype"), url(r9OmwyQxrgzUAhaLET_KO8-iP4m4uFrmmLLVBqy34EU.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Titillium WebSemiBold Italic"), local("TitilliumWeb-SemiBoldItalic"), url(RZunN20OBmkvrU7sA4GPPqVmZCTV49gQmgPOUhY_xPU.ttf) format("truetype"), url(RZunN20OBmkvrU7sA4GPPnV4MzQw1VeMlPUyFyGfvRM.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Titillium WebBold Italic"), local("TitilliumWeb-BoldItalic"), url(RZunN20OBmkvrU7sA4GPPvAhmxqQ1BKIUahWaanY54Y.ttf) format("truetype"), url(RZunN20OBmkvrU7sA4GPPpe8VrfdPPeK1ViGigzR2tQ.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(_aijTyevf54tkVDLy-dlnKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(2Q-AW1e_taO6pHwMXcXW5w.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Ubuntu Medium"), local("Ubuntu-Medium"), url(OsJ2DjdpjqFRVUSto6IffKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url(0ihfXUL2emPh0ROJezvraKCWcynf_cDxXwCLxiixG1c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Ubuntu Light Italic"), local("Ubuntu-LightItalic"), url(DZ_YjBPqZ88vcZCcIXm6Vp0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Ubuntu Italic"), local("Ubuntu-Italic"), url(ISUraQdBYMI3VoDzBxXqNvesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Ubuntu Medium Italic"), local("Ubuntu-MediumItalic"), url(ohKfORL_YnhBMzkCPoIqwp0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Ubuntu Bold Italic"), local("Ubuntu-BoldItalic"), url(OMD20Sg9RTs7sUORCEN-7Z0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu Mono"), local("UbuntuMono-Regular"), url(ViZhet7Ak-LRXZMXzuAfkZ0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu Mono Bold"), local("UbuntuMono-Bold"), url(ceqTZGKHipo8pJj4molytp_TkvowlIOtbR7ePgFOpF4.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Ubuntu Mono Italic"), local("UbuntuMono-Italic"), url(KAKuHXAHZOeECOWAHsRKA-LrC4Du4e_yfTJ8Ol60xk0.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Ubuntu Mono Bold Italic"), local("UbuntuMono-BoldItalic"), url(n_d8tv_JOIiYyMXR4eaV9WsGzsqhEorxQDpu60nfWEc.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Vollkorn Regular"), local("Vollkorn-Regular"), url(7jR1T900H5YEkd1UcZhA_fesZW2xOQ-xsNqO47m55DA.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Vollkorn Bold"), local("Vollkorn-Bold"), url(wMZpbUtcCo9GUabw9JODep0EAVxt0G0biEntp43Qt6E.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Vollkorn Italic"), local("Vollkorn-Italic"), url(Oiz0tNwvC-Nd29SBQWfWTC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Vollkorn Bold Italic"), local("Vollkorn-BoldItalic"), url(KNiAlx6phRqXCwnZZG51JPEr6Hm6RMS0v1dtXsGir4g.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Yanone Kaffeesatz ExtraLight"), local("YanoneKaffeesatz-ExtraLight"), url(We_iSDqttE3etzfdfhuPRQqTbvZhoFeVhlHCS0LaBIg.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Yanone Kaffeesatz Light"), local("YanoneKaffeesatz-Light"), url(We_iSDqttE3etzfdfhuPRX4NhRhUVU1NOvrEWRXSCoI.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Yanone Kaffeesatz Regular"), local("YanoneKaffeesatz-Regular"), url(YDAoLskQQ5MOAgvHUQCcLbvy90DtE_Pg_qiF9bHvTzw.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Yanone Kaffeesatz Bold"), local("YanoneKaffeesatz-Bold"), url(We_iSDqttE3etzfdfhuPRUgbSk09ekaEjkXjfj0Ujx8.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Yesteryear';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Yesteryear"), local("Yesteryear-Regular"), url(Y-2_3oNnGXTRT4ySJQfhEC3USBnSvpkopQaUR-2r7iU.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Antic Didone';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Antic Didone"), local("AnticDidone-Regular"), url(r3nJcTDuOluOL6LGDV1vR6RDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
+
+@font-face {
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Arimo"), url(pobhh17XOxGWcv6UeVDjtA.woff) format("woff"); }
+
+@font-face {
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Arimo Bold"), local("Arimo-Bold"), url(rQiG1E-AavJYnHKFz6TvxOvvDin1pK8aKteLpeZ5c0A.woff) format("woff"); }
+
+@font-face {
+  font-family: Arimo;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Arimo Italic"), local("Arimo-Italic"), url(wEX24rFCTOAS44E9mWK-J6CWcynf_cDxXwCLxiixG1c.woff) format("woff"); }
+
+@font-face {
+  font-family: Arimo;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Arimo Bold Italic"), local("Arimo-BoldItalic"), url(12KdIcZCT44dfZuDJF9q73YhjbSpvc47ee6xR_80Hnw.woff) format("woff"); }
+
+@font-face {
+  font-family: Asap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Asap"), local("Asap-Regular"), url(DWYErGBkd5LEB1dXuovOm_esZW2xOQ-xsNqO47m55DA.woff) format("woff"); }
+
+@font-face {
+  font-family: Asap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Asap Bold"), local("Asap-Bold"), url(dAQEzRK3uY-PMfmAMTs4_QLUuEpTyoUstqEm5AMlJo4.woff) format("woff"); }
+
+@font-face {
+  font-family: Asap;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Asap Italic"), local("Asap-Italic"), url(eC-cmAik6LlBhoZjkZXTmevvDin1pK8aKteLpeZ5c0A.woff) format("woff"); }
+
+@font-face {
+  font-family: Asap;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Asap Bold Italic"), local("Asap-BoldItalic"), url(HeYzwarLlBOP-vBnan8oPbO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+
+@font-face {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Bitter-Regular"), url(B2Nuzzqgk0xdMJ132boli-vvDin1pK8aKteLpeZ5c0A.woff) format("woff"); }
+
+@font-face {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Bitter-Bold"), url(JGVZEP92dXgoQBG1CnQcfLO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+
+@font-face {
+  font-family: Bitter;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Bitter-Italic"), url(3Qeiy4DhEx8SU2AAo9tksHYhjbSpvc47ee6xR_80Hnw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Contrail One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Contrail One"), local("ContrailOne-Regular"), url(b41KxjgiyqX-hkggANDU6KRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Dancing Script"), local("DancingScript"), url(DK0eTGXiZjN6yA8zAEyM2bDH3ri20rYH10B2w3wbVeU.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Dancing Script Bold"), local("DancingScript-Bold"), url(KGBfwabt0ZRLA5W1ywjowQr4FYEmOdWJS9Fc8b-cYmo.woff) format("woff"); }
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local("EB Garamond"), local("EBGaramond"), url(CDR0kuiFK7I1OZ2hSdR7G7O3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fjalla One"), local("FjallaOne-Regular"), url(SHXJdWnWW6HDq-6DpcG8P73hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Fugaz One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fugaz One"), local("FugazOne-Regular"), url(foh--NswBHNPbRHy7yEyyLO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Merriweather Light"), local("Merriweather-Light"), url(ZvcMqxEwPfh2qDWBPxn6nuRJuhEpsm2VTgvzfipUAzk.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Merriweather"), local("Merriweather-Regular"), url(RFda8w1V0eDZheqfcyQ4EL3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Merriweather Bold"), local("Merriweather-Bold"), url(ZvcMqxEwPfh2qDWBPxn6ni0-yJ6Yjymu93WhhJl8mzA.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Merriweather Black"), local("Merriweather-Black"), url(ZvcMqxEwPfh2qDWBPxn6nr_TRqcPGXrNSFm5JHxk9Lg.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(EYh7Vl4ywhowqULgRdYwIOaUnuc_RBOzgMihrli224E.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Merriweather Italic"), local("Merriweather-Italic"), url(So5lHxHT37p2SS4-t60SlM6ywOWcZZrEkjsV55nORPE.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url(EYh7Vl4ywhowqULgRdYwILTmE0ibajAIPq8AjLObbLA.woff) format("woff"); }
+
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Merriweather Black Italic"), local("Merriweather-BlackItalic"), url(EYh7Vl4ywhowqULgRdYwIHudv8AGzPLNmZvlgf4IG7A.woff) format("woff"); }
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"), url(zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat-Bold"), url(IQHow_FEYlDC4Gzy_m8fcnbFhgvWbfSbdVg11QabG8w.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans"), local("NotoSans"), url(jtrAGA9oa0pigq9Mc6Hg_gLUuEpTyoUstqEm5AMlJo4.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(PIbvSEyHEdL91QLOQRnZ173hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Noto Sans Italic"), local("NotoSans-Italic"), url(dLcNKMgJ1H5RVoZFraDz0rO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Noto Sans Bold Italic"), local("NotoSans-BoldItalic"), url(9Z3uUWMRR7crzm1TjRicDiXIwCIIu6QKBvrtc7ntuuI.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Cond Light"), local("OpenSans-CondensedLight"), url(gk5FxslNkTTHtojXrkp-xPQd3qlve4PL-Wb1z1nySP33rGVtsTkPsbDajuO5ueQw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Condensed Bold"), local("OpenSans-CondensedBold"), url(gk5FxslNkTTHtojXrkp-xAWbujuWSphZZXcg2BmZebf3rGVtsTkPsbDajuO5ueQw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Cond Light Italic"), local("OpenSans-CondensedLightItalic"), url(jIXlqT1WKafUSwj6s9AzV0GzrMQnF9z4_ED8G-3lsT3r7w4p9aSvGirXi6XmeXNA.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Racing Sans One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Racing Sans One"), local("RacingSansOne-Regular"), url(1r3DpWaCiT7y3PD4KgkNyLEqa8uQLSUkfE7X0YMiIhA.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url(b9QBgL0iMZfDSpmcXcE8nH6GPO4TjrCsXWY4PSfraSY.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url(Zd2E9abXLFGSr9G3YK2MsEYkBUapGhkWjcxWm3_vZWA.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url(b9QBgL0iMZfDSpmcXcE8nAXW-UgdjZ3YrDta4-p32EE.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Condensed Light Italic"), local("RobotoCondensed-LightItalic"), url(mg0cGfGRUERshzBlvqxeAL_0DpHDa0qevVXsivaKxsI.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url(BP5K8ZAJv9qEbmuFp8RpJau6VQ0jQQbvSE8VA7z_fVA.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url(mg0cGfGRUERshzBlvqxeAKyfWPSGaEIhFC6Y-MJ0oyw.woff) format("woff"); }
+
+@font-face {
+  font-family: Sintony;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sintony"), url(osdt5IvwDMOprQ3S-WPNdgLUuEpTyoUstqEm5AMlJo4.woff) format("woff"); }
+
+@font-face {
+  font-family: Sintony;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Sintony Bold"), local("Sintony-Bold"), url(NBeaBKmA1yw4KFklLc4VJL3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Varela Round"), local("VarelaRound-Regular"), url(APH4jr0uSos5wiut5cpjrqRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Anton"), url(font.woff2?kit=m3noF1gjGLxrOP3s-zaqrnIU5AAIxYS7a8vyp0Dc7Qe6Obgr55Vkdq8dWHzf1Rico1N3L7iqQIihMCBNs0Z5426pof1ayxXsTArZc4TqcdM&skey=3e16a04254d4c9b3&v=v7) format("woff2"); }
+
+@font-face {
+  font-family: 'Alfa Slab One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Alfa Slab One"), local("AlfaSlabOne-Regular"), url(font_VWHltf.woff2?kit=Qx6FPcitRwTC_k88tLPc-Yn4E7X9rBz8PAID7Stjix1MKDW7wr8-mFUtZxX0An9Hxjwkr35EAwjGz2xBtHyf46VYFdkcnG3BQC4BAwdRBqtuAtmJ8SPLz6DEExiJ-m1d&skey=eb2fdb158beaba49&v=v5) format("woff2"); }
+
+@font-face {
+  font-family: 'Slabo px';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Slabo 27px"), local("Slabo27px-Regular"), url(font_UTBdm3.woff2?kit=BImHzE9BinWXPwLlbba_HyhqGa-CSr3nQtF3lrv2wWeu7RP096c_0cFQ7arjjB7ybFaXKHeky_O7IdzbE_trRh2NL1ThVuLv506WDWjwTFK0tkCcv8VGcP6XCC56Ww8-&skey=fcf48f8ef61c9c67&v=v3) format("woff2"); }
+
+@font-face {
+  font-family: 'Slabo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Slabo 13px"), local("Slabo13px-Regular"), url(font_9lfAtp.woff2?kit=JLiWCcSF0ebD5f7LaCG9ryhqGa-CSr3nQtF3lrv2wWeu7RP096c_0cFQ7arjjB7ybFaXKHeky_O7IdzbE_trRh2NL1ThVuLv506WDWjwTFK0tkCcv8VGcP6XCC56Ww8-&skey=c374e0391fcc76cc&v=v3) format("woff2"); }
+
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Permanent Marker"), local("PermanentMarker"), url(font_m2v8ah.woff2?kit=9vYsg5VgPHKK8SXYbf3sMiFrniGMyr_yu2tNm58wJFKjLj6mfVH_SC-pWgEcJRUZS7v2Ba09qwUyzuhbaSvY1jjpN9HcCrd6JOrUmzPBTqsqKB5NiYPs--m0h7jRSWAE&skey=84f486597b8007d1&v=v5) format("woff2"); }
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Crimson Text"), local("CrimsonText-Roman"), url(font_DA6yvJ.woff2?kit=3IFMwfRa07i-auYR-B-zNY-dKQzmQ2KGHRrJPWMxpTDsPXYqTGLZ2U8sggWmBN11vY_KnrbECKVYwT5jML176E-hCdHeAh1EypZggr0U53BuXxQghSWdr5fKRAiL7DYm&skey=28fc2c78007b71a9&v=v6) format("woff2"); }
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Crimson Text Semibold"), local("CrimsonText-Semibold"), url(font_YAFTve.woff2?kit=rEy5tGc5HdXy56Xvd4f3I5V90muKwepe8KyFsI0xB30sW74lMOjTY4qiY9y3N8u8mmZZuPEXUm9QhgLwSTQSb8YE374rgrGU5twsryA-dlb3ENXPRqTW0OIclyPn2srH&skey=8d0e5c65248ec1b9&v=v6) format("woff2"); }
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Crimson Text Bold"), local("CrimsonText-Bold"), url(font_K1kpQo.woff2?kit=rEy5tGc5HdXy56Xvd4f3I54d4Xd3rPKOszzppa3SxGUsW74lMOjTY4qiY9y3N8u8mmZZuPEXUm9QhgLwSTQSb8YE374rgrGU5twsryA-dlb3ENXPRqTW0OIclyPn2srH&skey=ac5d7eee4a23d97&v=v6) format("woff2"); }
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Crimson Text Italic"), local("CrimsonText-Italic"), url(font_5MWrEy.woff2?kit=a5QZnvmn5amyNI-t2BMkWIWMo-Nwm1fbW7l_aO2eAFaruusgsetRaCmkKU2Of3BmMh8Htnga2sTO__4Bgy4aRUbOfyIL9KspCxN8ekvQQBzoq8GLqcC6GrPYOPNC3QDT&skey=e557500e250d718b&v=v6) format("woff2"); }
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Crimson Text Semibold Italic"), local("CrimsonText-SemiboldItalic"), url(font_zIkg0g.woff2?kit=4j4TR-EfnvCt43InYpUNDIc_V0g7El-zHafeUmB7DWsrKni7tqHm66YuSJ7tIVb0-ho-jt0-tIfV17HxW7xXcwPbi8e1igoVX9lvzuuaeu-IxSFZfx2HCypMBoObzg9p&skey=297741408878cce6&v=v6) format("woff2"); }
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Crimson Text Bold Italic"), local("CrimsonText-BoldItalic"), url(font_Wvsqbf.woff2?kit=4j4TR-EfnvCt43InYpUNDG8TFbjbdWUNgxkR6LBNZZwrKni7tqHm66YuSJ7tIVb0-ho-jt0-tIfV17HxW7xXcwPbi8e1igoVX9lvzuuaeu-IxSFZfx2HCypMBoObzg9p&skey=278c8c85e53f0d85&v=v6) format("woff2"); }
+
+/* NEW FONTS WITH LATIN EXTENDED */
+/* devanagari */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Amiko"), local("Amiko-Regular"), url(A15nTXdY49tTyTmUGjpPCQ.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Amiko"), local("Amiko-Regular"), url(ANKzVW2RU5L2dGvDq89xKw.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Amiko"), local("Amiko-Regular"), url(zUY3bIS78Lri9nXVNYdyrw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* devanagari */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Amiko SemiBold"), local("Amiko-SemiBold"), url(pi321MGIu4Gzwgrb0I7JhRTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Amiko SemiBold"), local("Amiko-SemiBold"), url(m31fwPgqovUMj78ApdIschTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Amiko SemiBold"), local("Amiko-SemiBold"), url(fxM3mYvpwrCfuVHhMAeNOPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* devanagari */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Amiko Bold"), local("Amiko-Bold"), url(00aIsRf3x7nK4Rbia5MkcxTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Amiko Bold"), local("Amiko-Bold"), url(XyGvLnQQFz5s781uni0OwxTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Amiko Bold"), local("Amiko-Bold"), url(8a-gnb0G9uPWXYFVgB--bPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Cairo ExtraLight"), local("Cairo-ExtraLight"), url(5LOQ_MoEyLNG0tEIw7VXBhTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Cairo ExtraLight"), local("Cairo-ExtraLight"), url(XsUOtFIEOx9iWLLrJsllsBTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Cairo ExtraLight"), local("Cairo-ExtraLight"), url(m_6Y_1Nb823vSGJGfT_5vPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Cairo Light"), local("Cairo-Light"), url(fgBJt-qyQFuORpzrx3mX4hTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Cairo Light"), local("Cairo-Light"), url(nLADUPxUWC4EPe9A-_Us4RTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Cairo Light"), local("Cairo-Light"), url(NwJ8eIvZGAJEQL7ALJDfVfesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cairo"), local("Cairo-Regular"), url(MoGpUcTu_oZLf0bsrG2xFQ.woff2) format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cairo"), local("Cairo-Regular"), url(iZqLGfCYEEkWEsr6HQRnSQ.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cairo"), local("Cairo-Regular"), url(gtxIPk0-ZE5IZ2RrdsRLuQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Cairo SemiBold"), local("Cairo-SemiBold"), url(MI6TrIXLGD9aHguHYHeGURTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Cairo SemiBold"), local("Cairo-SemiBold"), url(s8FJ6hn1_1aAksu6WP2CahTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Cairo SemiBold"), local("Cairo-SemiBold"), url(nDAflKnJsVnfdGOoytL7mPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cairo Bold"), local("Cairo-Bold"), url(RLgQnjqLWN5-LcxkRZr1cBTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cairo Bold"), local("Cairo-Bold"), url(UlKq8fG0ZzFfhYvIA2PuURTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cairo Bold"), local("Cairo-Bold"), url(IGeshMgNVhb2XU2TGWkITvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* arabic */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Cairo Black"), local("Cairo-Black"), url(_QQsgtYywAPNwcmixjhE6xTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Cairo Black"), local("Cairo-Black"), url(KCiMOaYFn2Leq6LR5gSAFRTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Cairo Black"), local("Cairo-Black"), url(417l3JBKBK04DZkInIQz6vesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Courgette Regular"), local("Courgette-Regular"), url(Gkr63O-aJXf4Mv4t7cBUchJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Courgette Regular"), local("Courgette-Regular"), url(BHG8ZtTfO0yYnp02--QxqltXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Exo 2 Thin"), local("Exo2-Thin"), url(6eWVsQBg_DHn5C7yJ6Q_BfY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Exo 2 Thin"), local("Exo2-Thin"), url(fbGcG9CFbD6xJHRnV_W4B_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Exo 2 Thin"), local("Exo2-Thin"), url(ADiRusfMayFwcntf9MXsGQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Exo 2 Extra Light"), local("Exo2-ExtraLight"), url(fTWF5_X2GMFGSeu9Jfm8xRTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Exo 2 Extra Light"), local("Exo2-ExtraLight"), url(2te67bJO7v3hcIhF8WOfpxTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Exo 2 Extra Light"), local("Exo2-ExtraLight"), url(4VH1sjauXOSoJIJOdxuAC_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Exo 2 Light"), local("Exo2-Light"), url(ZvqiGg27-1PW7JHPGOnJEBTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Exo 2 Light"), local("Exo2-Light"), url(-u8MnRNZbXng_riSEM1grRTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Exo 2 Light"), local("Exo2-Light"), url(TZlHHgxEfHXA7uKM1eaCjfesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo 2"), local("Exo2-Regular"), url(pEbpp8gu02JrI5SDG9jj6g.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo 2"), local("Exo2-Regular"), url(sZoRRDfBcJL9e6dHdMU_Tg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo 2"), local("Exo2-Regular"), url(-A4eIjQkAwKL411pgtQ4VA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Exo 2 Medium"), local("Exo2-Medium"), url(hJNWOADMCBRrv6g6rvmDLRTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Exo 2 Medium"), local("Exo2-Medium"), url(LIOVoUZaNfvKcnPK2sqyzhTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Exo 2 Medium"), local("Exo2-Medium"), url(6b9HPGUYUr8qZeNu0Z7o-PesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Exo 2 Semi Bold"), local("Exo2-SemiBold"), url(LFe3mB-q6jNXyAcQ2iPxARTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Exo 2 Semi Bold"), local("Exo2-SemiBold"), url(GGsKokbvGBQnZ182Vk7qiRTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Exo 2 Semi Bold"), local("Exo2-SemiBold"), url(0BGKjb5TxeNM_vPrpoWDWPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Exo 2 Bold"), local("Exo2-Bold"), url(bjq6AK9kaX_qiS97tqNwpBTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Exo 2 Bold"), local("Exo2-Bold"), url(j6S3lQriBGoUURQ3ejUiKBTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Exo 2 Bold"), local("Exo2-Bold"), url(AbMslUVu4Wq5jvNwOBLwLvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Exo 2 Extra Bold"), local("Exo2-ExtraBold"), url(XcVNq7h_15hNJotQOnfwdhTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Exo 2 Extra Bold"), local("Exo2-ExtraBold"), url(vxP0mJ4Ah81pzPPpYPzpbBTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Exo 2 Extra Bold"), local("Exo2-ExtraBold"), url(CJVzeXcVfU8kDtg9_l0We_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Exo 2 Black"), local("Exo2-Black"), url(rUGmGYSiV3Rj1fENrroZexTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Exo 2 Black"), local("Exo2-Black"), url(MqITCP2L4jm77PnkS72K-BTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Exo 2 Black"), local("Exo2-Black"), url(GJUUsjMsQG_gk-UGzcMXofesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Exo 2 Thin Italic"), local("Exo2-ThinItalic"), url(eVT2YjM90_OfVfatCnMNtxJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Exo 2 Thin Italic"), local("Exo2-ThinItalic"), url(-Hjc4jtnQgJIAWP1NDt63hJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Exo 2 Thin Italic"), local("Exo2-ThinItalic"), url(BcTwYQH4QHiI46xew8Vt5FtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 200;
+  src: local("Exo 2 Extra Light Italic"), local("Exo2-ExtraLightItalic"), url(GPcnHEcViOv9M6tOEXaj1SEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 200;
+  src: local("Exo 2 Extra Light Italic"), local("Exo2-ExtraLightItalic"), url(tnz2R07zhK1IagGVkpqXSiEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 200;
+  src: local("Exo 2 Extra Light Italic"), local("Exo2-ExtraLightItalic"), url(FoL3DQ5h24Mp-VKZ-NjJxPk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Exo 2 Light Italic"), local("Exo2-LightItalic"), url(23rYvy_JA5ECpoxf7frKbSEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Exo 2 Light Italic"), local("Exo2-LightItalic"), url(MjcxgXfhyR_SJwppOHwuDSEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Exo 2 Light Italic"), local("Exo2-LightItalic"), url(nWbHq5XdqJFjIrJyBvpVo_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Exo 2 Italic"), local("Exo2-Italic"), url(F9ETeMVT95dtwFnxnP3Yo_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Exo 2 Italic"), local("Exo2-Italic"), url(_nL-1222f1d6pbTficjClvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Exo 2 Italic"), local("Exo2-Italic"), url(LMIL7_Tt4ZR7oImp-8ghHw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Exo 2 Medium Italic"), local("Exo2-MediumItalic"), url(eaanbqgvNGwrqFRlRINTXiEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Exo 2 Medium Italic"), local("Exo2-MediumItalic"), url(i5NxmCRBbb0FYs_jPsIakiEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Exo 2 Medium Italic"), local("Exo2-MediumItalic"), url(1_2um3wNMzErQK93dC9Hevk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Exo 2 Semi Bold Italic"), local("Exo2-SemiBoldItalic"), url(AbE2HdC08fDM25clla7d4yEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Exo 2 Semi Bold Italic"), local("Exo2-SemiBoldItalic"), url(sckEAwIKmmsx7VFwzUEGbSEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Exo 2 Semi Bold Italic"), local("Exo2-SemiBoldItalic"), url(1cBqBVaZ3i9Efab2hdPpzPk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Exo 2 Bold Italic"), local("Exo2-BoldItalic"), url(8v5Te3n1zxIm7cF0xXG0iiEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Exo 2 Bold Italic"), local("Exo2-BoldItalic"), url(37_egASvAhc9tHwCuoIfKyEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Exo 2 Bold Italic"), local("Exo2-BoldItalic"), url(Rpc1bsIIcqFfucX8mi4y5vk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Exo 2 Extra Bold Italic"), local("Exo2-ExtraBoldItalic"), url(ypwaNNE60c87t97j4sVyqiEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Exo 2 Extra Bold Italic"), local("Exo2-ExtraBoldItalic"), url(7QdOk5tMB25V4JlYtwJ2eSEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Exo 2 Extra Bold Italic"), local("Exo2-ExtraBoldItalic"), url(Gj10EN9jO3BquHnP2Z4qNvk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Exo 2 Black Italic"), local("Exo2-BlackItalic"), url(GWqof4rbZ7r2U2YOej_9-CEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Exo 2 Black Italic"), local("Exo2-BlackItalic"), url(RIAbswA4ePiUasfrC4OUwSEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Exo 2 Black Italic"), local("Exo2-BlackItalic"), url(4W580FLpNwVHxorEVMZVGfk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Indie Flower"), local("IndieFlower"), url(10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* gujarati */
+@font-face {
+  font-family: 'Mogra';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Mogra"), local("Mogra-Regular"), url(281rYjzokDc4h4Xig0U8hQ.woff2) format("woff2");
+  unicode-range: U+0964-0965, U+0A80-0AFF, U+200B-200D, U+20B9, U+25CC, U+A830-A839; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Mogra';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Mogra"), local("Mogra-Regular"), url(5Nlgx-j0EvktoNBNQhWk2Q.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Mogra';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Mogra"), local("Mogra-Regular"), url(iNadxienda3-9Z6rMIyYGg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Paytone One"), local("PaytoneOne"), url(D_d4Nj6jwG2cmUCLYeqgKY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Play"), local("Play-Regular"), url(_UIws5dpKC1RfhGPW_D7VQ.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Play"), local("Play-Regular"), url(VI6dwR3qOFADPI7kkTnlug.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Play"), local("Play-Regular"), url(4W1i2GqDprP6PUrv5L9lzw.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Play"), local("Play-Regular"), url(YjD7Z5idi6Khm_WnIgFa0Q.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Play"), local("Play-Regular"), url(ZNo-5SxCwH1CXgZ-n3bt2g.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Play Bold"), local("Play-Bold"), url(PpjZAP-K8gv39BSLNS1xY_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Play Bold"), local("Play-Bold"), url(lZe8LJu6XJeAnu9eXxtEnPY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* greek */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Play Bold"), local("Play-Bold"), url(VN3OcQJbzFDCcT5DR4FoP_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Play Bold"), local("Play-Bold"), url(mYWcwxMP0u4-zvfazCFrVfY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Play Bold"), local("Play-Bold"), url(d8o4OpWQkZkrWqhvSfqU1Q.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Prociono';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Prociono"), local("Prociono-Regular"), url(NzahrnHu7VVvHGo3vxCa9vesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Puritan';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Puritan Regular"), local("Puritan-Regular"), url(bieeZMYsukNQLRZ-T0EyWQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Puritan';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Puritan Bold"), local("Puritan-Bold"), url(5jPLJ9f9Ab5G4ze71-FiQ_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Puritan';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Puritan Italic"), local("Puritan-Italic"), url(LNB5sZdDCuNlAjx55ZHq6FtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Puritan';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Puritan Bold Italic"), local("Puritan-BoldItalic"), url(rFG3XkMJL75nUNZwCEIJqOgdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* gujarati */
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Shrikhand"), local("Shrikhand-Regular"), url(gAG9PY273yLDV-zH9stnPRJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0964-0965, U+0A80-0AFF, U+200B-200D, U+20B9, U+25CC, U+A830-A839; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Shrikhand"), local("Shrikhand-Regular"), url(K9FQo354tLl02a3s6NMmChJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Shrikhand"), local("Shrikhand-Regular"), url(JyWweKXulPH__9al48I7XltXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* devanagari */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Teko Light"), local("Teko-Light"), url(Gqez5aQ7wUhSZ0B0GK64MPY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Teko Light"), local("Teko-Light"), url(nR_Glzi6qD2G-l1HZVw4zPY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Teko Light"), local("Teko-Light"), url(k_8nf9u5jqwKFfbJlRtPvw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* devanagari */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Teko Regular"), local("Teko-Regular"), url(ReWtp16HVyzdin1z_uvVFg.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Teko Regular"), local("Teko-Regular"), url(3qReukiqUnKCO2w_puz9wQ.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Teko Regular"), local("Teko-Regular"), url(VMJW7okK7q4rP_CIopIrIg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* devanagari */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Teko Medium"), local("Teko-Medium"), url(HFqjevfZODn_1VTCEaVIPfY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Teko Medium"), local("Teko-Medium"), url(CPNsFkTOAPcgA6Efs9MigvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Teko Medium"), local("Teko-Medium"), url(Ot4RDKUO1e45_YikT1ng8w.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* devanagari */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Teko Semibold"), local("Teko-Semibold"), url(06GYP0dQrtaEyaCmPW5wgvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Teko Semibold"), local("Teko-Semibold"), url(gIyGqtIyJt1fA38fF9UeTvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Teko Semibold"), local("Teko-Semibold"), url(bV4GSZlFvf4yTwSQToixKg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* devanagari */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Teko Bold"), local("Teko-Bold"), url(xfVA9McSf3r4Zw3XiobqW_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Teko Bold"), local("Teko-Bold"), url(Pmw4xor8Ded5Fpinb3gclfY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Teko Bold"), local("Teko-Bold"), url(vZNHrtAXYeQN4tfAPqsxxw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'UnifrakturMaguntia';
+  font-style: normal;
+  font-weight: 400;
+  src: local("UnifrakturMaguntia"), url(7KWy3ymCVR_xfAvvcIXm3wh3zWhftzIdHBsuU0JwdCQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Droid Sans"), local("DroidSans"), url(s-BiyweUPV0v-yRb-cjciAzyDMXhdD8sAj6OAJTFsBI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+/* latin */
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Droid Sans Bold"), local("DroidSans-Bold"), url(EFpQQyG9GqCrobXxL-KRMWaVI6zN22yiurzcBKxPjFE.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+/* latin */
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Droid Serif"), local("DroidSerif"), url(0AKsP294HTD-nvJgucYTaIgp9Q8gbYrhqGlRav_IXfk.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+/* latin */
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Droid Serif Bold"), local("DroidSerif-Bold"), url(QQt14e8dY39u-eYBZmppwf79_ZuUxCigM2DespTnFaw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+/* latin */
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Droid Serif Italic"), local("DroidSerif-Italic"), url(cj2hUnSRBhwmSPr9kS589weOulFbQKHxPa89BaxZzA0.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+/* latin */
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Droid Serif Bold Italic"), local("DroidSerif-BoldItalic"), url(c92rD_x0V1LslSFt3-QEpsyRwA4nzNmLFN68bwzDkMk.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+/* latin */
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Monoton"), local("Monoton-Regular"), url(au96iQ3WM1J9H5fMga5i0QLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }

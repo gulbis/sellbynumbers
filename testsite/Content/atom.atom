@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>oberdanpilates</title>
+  <link rel="alternate" href="http://www.oberdanpilates.com" />
+  <subtitle />
+  <updated>2017-04-06T16:01:28Z</updated>
+  <dc:date>2017-04-06T16:01:28Z</dc:date>
+  <entry>
+    <title>Il mio primo post di blog</title>
+    <link rel="alternate" href="http://www.oberdanpilates.com/il-mio-primo-post-di-blog" />
+    <author>
+      <name>Filippo Levizzani</name>
+      <email>f.levizzani@aleide.it</email>
+    </author>
+    <updated>2017-04-06T16:01:28Z</updated>
+    <published>2017-04-06T16:01:28Z</published>
+    <summary type="text" />
+    <dc:date>2017-04-06T16:01:28Z</dc:date>
+  </entry>
+  <entry>
+    <title>10 motivi per cui dovresti amare il pilates</title>
+    <link rel="alternate" href="http://www.oberdanpilates.com/10-motivi-per-cui-dovresti-amare-i-blog" />
+    <author>
+      <name>Filippo Levizzani</name>
+      <email>f.levizzani@aleide.it</email>
+    </author>
+    <updated>2017-04-06T16:01:28Z</updated>
+    <published>2017-04-06T16:01:28Z</published>
+    <summary type="text" />
+    <dc:date>2017-04-06T16:01:28Z</dc:date>
+  </entry>
+</feed>
