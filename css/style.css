@@ -87,8 +87,8 @@ a, a:hover, a:active, a:focus { text-decoration: none; }
 
 }
 
-.hero-section { background: url(../images/Hero-Image.jpg) no-repeat 40% center; height: 100vh;
-    max-height: 650px; }
+.hero-section { background: url(../images/Hero-Image.jpg) no-repeat center top; height: 100vh;
+    max-height: 650px; background-attachment: fixed; }
 .hero-section h1 { color: #fff; font-size: 5.3125rem; font-weight: 700; text-shadow: 0 1px 2px rgba(0,0,0,.2); -webkit-text-shadow: 0 1px 2px rgba(0,0,0,.2); -moz-text-shadow: 0 1px 2px rgba(0,0,0,.2); }
 .hero-section h2 { color: #fff; font-size: 2.0625rem; text-shadow: 0 1px 2px rgba(0,0,0,.2); -webkit-text-shadow: 0 1px 2px rgba(0,0,0,.2); -moz-text-shadow: 0 1px 2px rgba(0,0,0,.2); }
 .hero-section p { color: #fff;  }
